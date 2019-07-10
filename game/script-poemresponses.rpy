@@ -1469,7 +1469,7 @@ label ch3_s_bad:
     s "This is a temporary placeholder till we get Satori's Poem Response here."
     s "In the meantime check if this skips."
     mc "W-wha?"
-    n "Begone!"
+    s "Begone!"
     $ skip_poem = True
     return
 
