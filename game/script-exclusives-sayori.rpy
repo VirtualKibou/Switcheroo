@@ -532,7 +532,7 @@ label sayori_exclusive_2:
     stop music fadeout 2.0
     scene bg club_day
     with dissolve_scene_half
-    play t3
+    play music t3
     show satori 1a at t11 zorder 2
     mc "We're back!"
     show satori at t22

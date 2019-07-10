@@ -128,7 +128,6 @@ define audio.hb = "<loop 0>bgm/heartbeat.ogg"
 define audio.closet_open = "sfx/closet-open.ogg"
 define audio.closet_close = "sfx/closet-close.ogg"
 define audio.page_turn = "sfx/pageflip.ogg"
-define audio.fall = "mod_assets/audio/fall3.wav"
 define audio.door_knock = "mod_assets/audio/door_knock.wav"
 
 # Backgrounds

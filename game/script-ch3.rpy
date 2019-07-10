@@ -522,7 +522,7 @@ label ch3_end:
     show yuuri 6e
     show mateo 1d
     "Everyone looks straight at me."
-    menu
+    menu:
         "But of course, I'm going to go with..."
         "Natsuko.":
             call ch3_end_natsuki
@@ -787,7 +787,7 @@ label ch3_end_monika:
             call ch3_end_natsuki
         "Yurri.":
             call ch3_end_yuri
-        "Sayori..." if help_sayori == None:
+        "Satori..." if help_sayori == None:
             call ch3_end_sayori
     return
 
@@ -806,12 +806,13 @@ label ch3_end_sayori:
     n 7q "It's not gonna kill you to rip yourelf away from Satori's side for a day!"
     m 1ac "Ugh... Sorry, [player]."
     m "This wasn't supposed to be so complicated."
+    show mateo 1e
     menu:
-        m 1e "Just think of the club, okay?"
+        m "Just think of the club, okay?"
         "Natsuko.":
             call ch3_end_natsuki
         "Yurri.":
             call ch3_end_yuri
-        "Monika." if help_monika == None:
+        "Mateo." if help_monika == None:
             call ch3_end_monika
     return

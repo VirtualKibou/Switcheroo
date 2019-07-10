@@ -824,8 +824,9 @@ label ch2_end:
     s "What would you do?"
     mc "...What?" 
     mc "Where'd that come from all of a sudden?"
+    show satori 1d
     menu:
-    s 1d "I'm just curious."
+        s "I'm just curious."
         "Walk home with Yuuri.":
             mc "Walking home with Yuuri, huh?"
             "Why does the mere thought of that make my heart pound?"

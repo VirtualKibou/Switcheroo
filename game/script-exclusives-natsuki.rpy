@@ -498,10 +498,13 @@ label natsuki_exclusive_2:
     "The chair finally rolls out from under me."
     "Frantically, Natsuko tries to catch me."
     "The box topples out of my hands, and the books go flying."
-
-    play audio.fall
-    show black
-
+    show black:
+        alpha 0
+        0.10
+        linear 0.10 alpha 1
+    $ pause(0.20)
+    stop music
+    play sound "mod_assets/audio/fall3.wav"
     "I slowly come to my senses."
     show bg closet
     "I sit up, pressing my arm down into what I think at first to be the floor beneath me."

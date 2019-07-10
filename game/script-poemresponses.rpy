@@ -662,12 +662,12 @@ label ch2_m_end:
     m 1m "That's my advice for today!"
     m 1n "Thanks for listening!"
     "What the hell kind of{nw}"
-        stop music fadeout 0.5
+    stop music fadeout 0.5
     show black onlayer front:
         alpha 0.0
         0.25
         linear 0.5 alpha 1.00
-    "What the hell kind of Truman Show bullshit..."{w=0.5}{nw}
+    "What the hell kind of Truman Show bullshit...{w=0.5}{nw}"
     window hide(None)
     window auto
     hide black onlayer front
@@ -871,7 +871,7 @@ label ch2_n_med:
             mc "That's a fair assessment."
             "I actually have no argument. He's right."
             n 7t "Well...I don't get it, but if it works for you, whatever!"
-n 1a "Anyway, here's my poem."
+            n 1a "Anyway, here's my poem."
             return
 
     #Likes this one the same amount
